@@ -16,35 +16,44 @@ header {
 }
 
 main {
-  position: relative;
-  top: 150px;
-  left: 500px;
+  margin-left: 500px;
 }
 
 .carta {
   display: inline-block;
   height: 230px;
   width: 200px;
-  margin-right: 20px;
-  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-top: 30px;
   border-radius: 15px;
   background-image: url(../img/pattern.png);
   background-size: contain;
 }
 
-.baloon {
+.carta img {
+  width: 90%;
+  visibility: hidden;
+}
+
+.carta-scoperta {
   display: inline-block;
   height: 230px;
   width: 200px;
-  margin-right: 20px;
-  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-top: 30px;
   border-radius: 15px;
-  background-image: url(../img/noun_air_balloon_3134741.png);
-  background-size: contain;
   background-color: white;
-  background-repeat: no-repeat;
+}
+.carta-scoperta img {
+  width: 90%;
 }
 
-.baloon h1 {
-  display: inline-block;
+.carta-scoperta .testo {
+  visibility: visible;
+}
+
+.testo {
+  color: blueviolet;
+  text-align: center;
+  visibility: hidden;
 }
