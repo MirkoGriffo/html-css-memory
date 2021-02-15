@@ -28,6 +28,7 @@ main {
   border-radius: 15px;
   background-image: url(../img/pattern.png);
   background-size: contain;
+  box-shadow: 4px 4px #a6a6a6;
 }
 
 .carta img {
@@ -43,6 +44,7 @@ main {
   margin-top: 30px;
   border-radius: 15px;
   background-color: white;
+  box-shadow: 4px 4px #a6a6a6;
 }
 .carta-scoperta img {
   width: 90%;
@@ -55,6 +57,7 @@ main {
 .testo {
   color: #ff00ff;
   text-align: center;
+  text-shadow: 1px 2px #a6a6a6;
   visibility: hidden;
 }
 
@@ -73,11 +76,6 @@ main {
 }
 
 footer {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  bottom: 0;
   text-align: center;
+  margin-top: 50px;
 }
